@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/main_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_12dp">
+
+        <ImageView
+            android:id="@+id/image_view_detail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height_250dp"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_8dp">
+
+            <TextView
+                android:id="@+id/title_detail"
+                style="@style/subTitle" />
+
+            <LinearLayout style="@style/Detail_layout_LL_Child">
+
+                <ImageView
+                    android:id="@+id/popularity_bg_rbg"
+                    style="@style/Detail_layout_Image_Child"
+                    android:src="@drawable/ic_popularity"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/vote_average_detail"
+                    style="@style/Detail_layout_Primary_textView_Child" />
+
+                <TextView
+                    style="@style/Detail_layout_Secondary_textView_Child"
+                    android:text="@string/popularity_detail_tv" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/Detail_layout_LL_Child">
+
+                <ImageView
+                    android:id="@+id/voting_bg_rbg"
+                    style="@style/Detail_layout_Image_Child"
+                    android:src="@drawable/ic_voting_average"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/popularity_detail"
+                    style="@style/Detail_layout_Primary_textView_Child" />
+
+                <TextView
+                    style="@style/Detail_layout_Secondary_textView_Child"
+                    android:text="@string/voting_average_detail_tv" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/Detail_layout_LL_Child">
+
+                <ImageView
+                    android:id="@+id/release_date_bg_rbg"
+                    style="@style/Detail_layout_Image_Child"
+                    android:src="@drawable/ic_release_date"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/release_day_detail"
+                    style="@style/Detail_layout_Primary_textView_Child" />
+
+                <TextView
+                    style="@style/Detail_layout_Secondary_textView_Child"
+                    android:text="@string/release_date_detail_tv" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/Detail_layout_LL_Child">
+
+                <ImageView
+                    android:id="@+id/language_bg_rbg"
+                    style="@style/Detail_layout_Image_Child"
+                    android:src="@drawable/ic_language"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/language_detail"
+                    style="@style/Detail_layout_Primary_textView_Child" />
+
+                <TextView
+                    style="@style/Detail_layout_Secondary_textView_Child"
+                    android:text="@string/language_detail_tv" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/Detail_layout_Secondary_textView_Child"
+                android:text="@string/overview_detail_tv"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/overView_detail"
+                style="@style/Detail_layout_Primary_textView_Child" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

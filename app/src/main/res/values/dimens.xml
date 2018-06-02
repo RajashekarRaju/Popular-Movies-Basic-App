@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_12dp">12dp</dimen>
+    <dimen name="image_height_250dp">250dp</dimen>
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="TV_size_20sp">20sp</dimen>
+    <dimen name="TV_size_16sp">16sp</dimen>
+    <dimen name="padding_4dp">4dp</dimen>
+</resources>

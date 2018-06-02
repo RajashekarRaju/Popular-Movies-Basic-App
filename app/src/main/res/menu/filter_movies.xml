@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.rkrjstdio.popularmoviesbasic.MainActivity">
+
+    <item
+        android:id="@+id/refresh_view"
+        android:icon="@drawable/ic_refresh"
+        android:title="@string/refresh"
+        app:showAsAction="always"
+        android:orderInCategory="100"/>
+
+    <item
+        android:icon="@drawable/ic_filter"
+        android:title="@string/sort_movie_textView"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/most_popular_menu_item"
+                android:title="@string/settings_order_by_most_popular" />
+            <item
+                android:id="@+id/highest_rated_menu_item"
+                android:title="@string/settings_order_by_top_rated" />
+        </menu>
+    </item>
+</menu>

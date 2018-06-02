@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorTealPrimary</item>
+        <item name="colorPrimaryDark">@color/colorTealPrimaryDark</item>
+    </style>
+
+    <style name="DetailTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorRedSecondary</item>
+        <item name="colorPrimaryDark">@color/colorRedSecondaryDark</item>
+    </style>
+
+    <style name="MainTitle" parent="TextAppearance.AppCompat.Headline" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding_4dp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark</item>
+    </style>
+
+    <style name="subTitle" parent="TextAppearance.AppCompat.Title" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:padding">@dimen/padding_8dp</item>
+    </style>
+
+    <style name="Detail_layout_LL_Child">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Detail_layout_Image_Child">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="Detail_layout_Primary_textView_Child">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textSize">@dimen/TV_size_20sp</item>
+        <item name="android:padding">@dimen/padding_8dp</item>
+    </style>
+
+    <style name="Detail_layout_Secondary_textView_Child">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textSize">@dimen/TV_size_16sp</item>
+        <item name="android:padding">@dimen/padding_8dp</item>
+    </style>
+
+</resources>
